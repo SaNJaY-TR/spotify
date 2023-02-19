@@ -62,7 +62,7 @@ export class SpotifyPlugin extends CustomPlugin {
         );
       }
     }
-    this.api = new API(options.api?.clientId, options.api?.clientSecret, options.api?.topTracksCountry);
+    this.api= new API(options.api?.clientId, options.api?.clientSecret, options.api?.topTracksCountry);
   }
 
   // eslint-disable-next-line @typescript-eslint/require-await
